@@ -6,7 +6,7 @@ resource "aws_lambda_function" "authorizer" {
   function_name    = "${var.api_name}-authorizer"
   role             = aws_iam_role.authorizer.arn
   handler          = "authorizer.lambda_handler"
-  runtime          = "ruby2.5"
+  runtime          = "ruby2.7"
   tags             = var.base_tags
 
   environment {

@@ -4,7 +4,7 @@ resource "aws_lambda_function" "stns" {
   function_name    = var.api_name
   role             = aws_iam_role.stns.arn
   handler          = "app.lambda_handler"
-  runtime          = "ruby2.5"
+  runtime          = "ruby2.7"
   tags             = var.base_tags
 
   environment {

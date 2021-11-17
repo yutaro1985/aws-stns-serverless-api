@@ -20,8 +20,8 @@ SAM がもろもろ対応したら SAM に載せ替えます。
 
 ## Requirements / Setup
 
-* Ruby 2.5.0
-* terraform >= '0.11.10'
+* Ruby 2.7.0
+* terraform >= '0.12'
 * terraform-aws-provider >= '1.59.0'
 * find コマンド (Lambda ソースを一覧するために利用)
 * md5 コマンド (Lambda ソースの更新チェックに利用)
